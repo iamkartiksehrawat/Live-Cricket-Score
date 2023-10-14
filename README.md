@@ -13,7 +13,8 @@ INSTALLATION :
 SCREENSHOTS : 
 
 
+![Screenshot 2023-10-14 215830](https://github.com/iamkartiksehrawat/Live-Cricket-Score/assets/134216694/f3043d0c-9220-4d45-a6fb-f699813cc672)
 
-![Screenshot 2023-10-14 215830](https://github.com/iamkartiksehrawat/Live-Cricket-Score/assets/134216694/ba8c13cf-0b74-4d48-82a1-0d1be7ea7720)
-![Screenshot 2023-10-14 220511](https://github.com/iamkartiksehrawat/Live-Cricket-Score/assets/134216694/5fdfaedb-0781-41ee-b063-79640578f452)
 
+
+![Screenshot 2023-10-14 220511](https://github.com/iamkartiksehrawat/Live-Cricket-Score/assets/134216694/b4036bda-e276-4d19-9ffc-f55314e6aa94)
