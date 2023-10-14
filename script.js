@@ -96,7 +96,7 @@ const showcasedata = function (val, list_name) {
 const fetchdata = async function () {
   try {
     const data = await fetch(
-      'https://api.cricapi.com/v1/currentMatches?apikey=f0338dc9-8f62-4506-b7ec-a78c0d9b42df&offset=0'
+      'https://api.cricapi.com/v1/currentMatches?apikey={-----INSERT---YOUR---KEY----}&offset=0'
     );
     const response = await data.json();
     if (response.status != 'success') {
