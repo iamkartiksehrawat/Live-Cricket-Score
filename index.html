@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cric scores</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Onest:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!--ERROR WINDOW -->
+      <div class="err-box hidden">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6 exc-logo"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z"
+          />
+        </svg>
+
+        <span class="err-state"></span>
+      </div>
+      <div class="trans-bg hidden"></div>
+
+      <div class="navbar sticky">
+        <!-- HEADER -->
+        <h1 class="header">ALL MATCHES</h1>
+
+        <!-- Filters for different matches type -->
+
+        <ul class="filters">
+          <li>
+            <a href="#live" class="live-filter m-filter">
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6 live-icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M9.348 14.651a3.75 3.75 0 010-5.303m5.304 0a3.75 3.75 0 010 5.303m-7.425 2.122a6.75 6.75 0 010-9.546m9.546 0a6.75 6.75 0 010 9.546M5.106 18.894c-3.808-3.808-3.808-9.98 0-13.789m13.788 0c3.808 3.808 3.808 9.981 0 13.79M12 12h.008v.007H12V12zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+                  />
+                </svg>
+              </div>
+              <span>Live</span>
+            </a>
+          </li>
+          <li><a href="#upcoming" class="m-filter">Upcoming</a></li>
+          <li>
+            <a href="#recently-played" class="m-filter">Recently Played</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Matches list -->
+
+      <!--Live matches-->
+      <section id="live">
+        <span class="section-header">LIVE</span>
+        <ul class="lists" id="m-list-live"></ul>
+      </section>
+
+      <!--Upcoming matches -->
+      <section id="upcoming">
+        <span class="section-header">UPCOMING</span>
+        <ul class="lists" id="m-list-upcoming"></ul>
+      </section>
+
+      <!-- Recently Played matches-->
+      <section id="recently-played">
+        <span class="section-header">RECENTLY PLAYED</span>
+        <ul class="lists" id="m-list-recently-played"></ul>
+      </section>
+    </div>
+  </body>
+</html>

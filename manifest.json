@@ -1,0 +1,15 @@
+{
+  "name": "Cric.",
+  "version": "1.0.0",
+  "description": "Live Cricket scores in no time.",
+  "manifest_version": 3,
+  "author": "Kartik",
+  "action": {
+    "default_popup": "./index.html",
+    "default_title": "Cricscore",
+    "default_icon": {
+      "16": "./images/logoimage.png",
+      "32": "./images/logoimage.png"
+    }
+  }
+}
